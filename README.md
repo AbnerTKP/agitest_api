@@ -102,6 +102,12 @@ Foram escolhidos 3 endpoints da Dog API, conforme solicitado no teste.
 - Retorna URL de imagem válida com status de sucesso
 - Chamadas consecutivas retornam imagens diferentes (aleatoriedade)
 
+## CI
+
+O projeto possui integração contínua com GitHub Actions. A cada push na branch `main`, os testes são executados automaticamente em um ambiente Ubuntu com Java 17. O relatório HTML do Surefire é salvo como artifact na aba Actions do repositório.
+
+Para executar manualmente: vá na aba **Actions** do repositório e clique em **Run workflow**.
+
 ## Estrutura do projeto
 
 ```
